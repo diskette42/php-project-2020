@@ -1,0 +1,292 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  color: #211a1a;
+}
+
+#shopping-cart {
+  margin: 40px;
+  margin-top: 5px;
+}
+
+#product-grid {
+  margin: 40px;
+}
+
+#shopping-cart table {
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+#shopping-cart table td {
+  background-color: #ffffff;
+}
+
+.txt-heading {
+  color: #211a1a;
+  border-bottom: 1px solid #e0e0e0;
+  overflow: auto;
+}
+
+#btnEmpty {
+  background-color: #ffffff;
+  border: #e67e22 1px solid;
+  padding: 5px 10px;
+  color: #e67e22;
+  float: right;
+  text-decoration: none;
+  border-radius: 3px;
+  margin: 10px 0px;
+}
+
+.btnAddAction {
+  padding: 5px 10px;
+  margin-left: 5px;
+  background-color: #efefef;
+  border: #e0e0e0 1px solid;
+  color: #211a1a;
+  float: right;
+  text-decoration: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#product-grid .txt-heading {
+  margin-bottom: 18px;
+}
+
+.product-item {
+  float: left;
+  background: #ffffff;
+  margin: 30px 30px 0px 0px;
+  border: #e0e0e0 1px solid;
+  width: 17%;
+  padding: 18px;
+  margin-left: 38px;
+}
+
+.product-image {
+  height: 250px;
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+.product-image img {
+  width: 100%;
+  height: 81%;
+  transition: transform 2s;
+}
+.product-image img:hover {
+  transform: scale(1.15);
+}
+
+.clear-float {
+  clear: both;
+}
+
+.demo-input-box {
+  border-radius: 2px;
+  border: #ccc 1px solid;
+  padding: 2px 1px;
+}
+
+.tbl-cart {
+  font-size: 0.9em;
+}
+
+.tbl-cart th {
+  font-weight: normal;
+}
+
+.product-title {
+  margin-bottom: 20px;
+}
+
+.product-price {
+  float: left;
+}
+
+.cart-action {
+  float: right;
+}
+
+.product-quantity {
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: #e0e0e0 1px solid;
+}
+
+.product-tile-footer {
+  padding: 15px 15px 0px 15px;
+  overflow: auto;
+}
+
+.cart-item-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: #e0e0e0 1px solid;
+  padding: 5px;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.no-records {
+  text-align: center;
+  clear: both;
+  margin: 38px 0px;
+  color: #e67e22;
+}
+/* main-nav */
+.main-nav {
+  text-align: right;
+  list-style: none;
+}
+.main-nav li {
+  display: inline-block;
+  margin-left: 54px;
+}
+.main-nav li a {
+  color: #e67e22;
+  margin-right: 39px;
+}
+.modal {
+  margin-top: 70px;
+  width: 35%;
+  margin-left: 30%;
+  padding: 50px 10px;
+  padding-bottom: 40px;
+  background-color: rgba(236, 240, 241, 1);
+  border: 2px solid white;
+  border-radius: 25px;
+  z-index: 2 !important;
+  position: fixed;
+  display: none;
+}
+/* ------------------ */
+/* ------ADDRESS------- */
+/* ----------------- */
+.modal {
+  margin-top: 18px;
+  width: 35%;
+  height: 40%;
+  margin-left: 29%;
+  padding: 50px 10px;
+  padding-bottom: 40px;
+  background-color: rgba(112, 112, 112, 0.98);
+  border: 1px solid #555555;
+  border-radius: 25px;
+}
+.text {
+  margin-top: 30px;
+  position: absolute;
+  top: 5px;
+  padding: 20px 40px;
+  padding-top: 10px;
+  background-color: #cf6d17;
+  border-radius: 5px;
+  margin-left: 12.5%;
+  margin-right: auto;
+  color: white;
+}
+.guess {
+  margin-top: -50px;
+  display: block;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 35px;
+  color: #2f8fb0;
+}
+
+.guess i {
+  width: 100%;
+  font-size: 500%;
+}
+
+.container {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 21px;
+}
+.address {
+  float: left;
+  margin-top: 9px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+  color: #2f8fb0;
+}
+.container input {
+  width: 60%;
+  margin-left: 1%;
+  margin-bottom: 13px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+section button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #2f8fb0;
+  border: 1px solid #2f8fb0;
+  border-radius: 10px;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  margin-left: 27px;
+  margin-right: auto;
+  border: none;
+  cursor: pointer;
+  width: 90%;
+  margin-top: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #2f8fb0;
+  font-size: 30px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  cursor: pointer;
+}
+
+.tel {
+  margin-left: 21px;
+  margin-top: 23px;
+  color: #2f8fb0;
+}
+.mobilephone {
+  margin-top: 20px;
+  width: 120%;
+  margin-left: -50px;
+}
+.logo {
+  height: 65px;
+  float: left;
+  margin-top: -16px;
+}

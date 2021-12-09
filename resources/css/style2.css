@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+html {
+  background-color: white;
+  color: #555555;
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+.modal {
+  margin-top: 50px;
+  width: 35%;
+  margin-left: 40%;
+  padding: 50px 10px;
+  padding-bottom: 40px;
+  background-color: rgba(236, 240, 241, 0.5);
+  border: 1px solid #555555;
+  border-radius: 25px;
+}
+.text {
+  margin-top: 30px;
+  position: absolute;
+  top: 5px;
+  padding: 20px 40px;
+  padding-top: 10px;
+  background-color: #cf6d17;
+  border-radius: 5px;
+  margin-left: 12.5%;
+  margin-right: auto;
+  color: white;
+}
+.guess {
+  display: block;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 35px;
+}
+
+.guess i {
+  width: 100%;
+  font-size: 500%;
+}
+
+.container {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 10px;
+}
+.container input {
+  width: 100%;
+}
+section button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #cf6d17;
+  border: 1px solid #cf6d17;
+  border-radius: 10px;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 90%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
